@@ -1,0 +1,21 @@
+Projekt: Prevod rozsireneho konecneho automatu na deterministicky konecny automat do predmetu FLP
+Nazev: rka-2-dka
+Autor: Sara Skutova, xskuto00@stud.fit.vutbr.cz
+
+Pouziti: rka-2-dka [volby] [vstup]
+
+	volby: 
+		-i vypsani nacteneho automatu
+		-t prevod rka na dka a vypsani dka
+		
+	vstup:
+		jmeno souboru, ze ktereho se nacita automat, poukud soubor chybi, tak se cte ze standartniho vstupu
+		
+Program nacte rozsireny konecny automat do sve vnitrni reprezentace a pri volbe -i tuto vnitrni reprezentaci vypise
+na standartni vystup.
+Pri volbe -t pak dany automat prevede na deterministicky konecny automat.
+Volby -i a -t nelze kombinovat (program se s chybou ukonci) - TODO ROZSIRENI
+
+V archivu se take nachazeji 2 testovaci automaty spolecne i se soubory s odpovidajicimi vystupy pri volbe -i a -t:
+	test_opora.in - tento automat je z opory do predmetu TIN, priklad 3.25, strana 44: https://www.fit.vutbr.cz/study/courses/TIN/public/Texty/oporaTIN.pdf
+	test_sti.in - automat ze seminare STI, strana 5: https://wis.fit.vutbr.cz/FIT/st/course-files-st.php?file=%2Fcourse%2FSTI-IT%2Fother%2FSTI-04-2017_10_13.pdf&cid=12330

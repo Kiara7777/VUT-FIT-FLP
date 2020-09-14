@@ -1,0 +1,25 @@
+FLP 2017/2018
+Pojekt: Rubikova kostka
+Autor: Sara Skutova, xskuto00@stud.fit.vutbr.cz
+
+Naprogramovany jsou pouze vsechny pohyby kostkou:
+Right
+Right Inverted
+
+Left
+Left Inverted
+
+Up
+Up Inverted
+
+Down
+Down Inverted
+
+Front 
+Front Inverted
+
+Back
+Back Inverted
+
+Program je nastaven na vyreseni kostky ze zadani.
+Reseni dalsich kostek je zakomenovano, nad resenim kazde kostky je komentar s nazvem souboru s kostkou.
